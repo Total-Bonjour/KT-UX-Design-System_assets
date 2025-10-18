@@ -1,4 +1,58 @@
-.dnBQKh .ProseMirror h2.zheditor-heading, .dnBQKh .ProseMirror h3.zheditor-heading, .dnBQKh .ProseMirror h4.zheditor-heading, .dnBQKh .ProseMirror h5.zheditor-heading, .dnBQKh .ProseMirror h6.zheditor-heading {
-    font-family: Pretendard;
-    font-weight: 500;
+<style class="custom-zh-fonts" type="text/css">@font-face {
+font-family: "Pretendard-Regular";
+font-weight: 400;
+src: url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-regular.woff2);
 }
+@font-face {
+font-family: "Pretendard-Medium";
+font-weight: 500;
+src: url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-medium.woff2);
+}
+@font-face {
+font-family: "Pretendard-Semibold";
+font-weight: 600;
+src: url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-semibold.woff2);
+}
+@font-face {
+font-family: "Pretendard-Bold";
+font-weight: 700;
+src: url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-bold.woff2);
+}
+@font-face {
+font-family: "KTFLOW-BOLD";
+font-weight: 700;
+src: url(https://cdn.jsdelivr.net/gh/Total-Bonjour/KT-UX-Design-System_assets@main/assets/font/KTFLOW-BOLD.ttf);
+}
+@font-face {
+font-family: "KTFLOW-MEDIUM";
+font-weight: 500;
+src: url(https://cdn.jsdelivr.net/gh/Total-Bonjour/KT-UX-Design-System_assets@main/assets/font/KTFLOW-MEDIUM.ttf);
+}
+@font-face {
+font-family: "KTFLOW-BLACK";
+font-weight: 900;
+src: url(https://cdn.jsdelivr.net/gh/Total-Bonjour/KT-UX-Design-System_assets@main/assets/font/KTFLOW-BLACK.ttf);
+}
+.dnBQKh .ProseMirror h2.zheditor-heading, .dnBQKh .ProseMirror h3.zheditor-heading, .dnBQKh .ProseMirror h4.zheditor-heading, .dnBQKh .ProseMirror h5.zheditor-heading, .dnBQKh .ProseMirror h6.zheditor-heading {
+    font-family: auto;
+    /* font-weight: 700; */
+}
+.cover .subtitle.type_body-large,.cover .description .styleguide-description,#texteditor-container p, #texteditor-container blockquote, #texteditor-container ul, .page-introduction p,#texteditor-container ol, .notes-editor p, .notes-editor blockquote, .notes-editor ul, .notes-editor ol, .details-box p, .details-box blockquote, .details-box ul, .details-box ol, .search-box input, .search-box{font-family:"Pretendard-Medium";}.pages-wrapper .name,.nav-tabs .name, .page-tabs .name,.resources .tab .name,#styleguide-switcher,footer.page-footer-container span{font-family:"Pretendard-Medium";}.cover .type_heading-xxxlarge,.page-title div, .page-title h1, .page .category div,#texteditor-container h2, #texteditor-container h3, #texteditor-container h4, .sketch-item .name{ font-weight: 700 !important; font-family:"KTFLOW-BOLD";}
+            .ql-container.page-introduction .ql-editor p,
+            .ql-container.page-introduction .ql-editor.ql-blank::before {
+              font-size: 18px;
+              line-height: 27px;
+            }
+            .ql-container.page-introduction .ql-editor.ql-blank::before {
+              color: var(--colors-blocks-content-text-placeholder, #9e9e9e);
+            }
+          
+          #texteditor-container .ql-editor .notes p,
+          #texteditor-container .ql-editor .notes blockquote,
+          #texteditor-container .ql-editor .notes ul,
+          #texteditor-container .ql-editor .notes ol,
+          #texteditor-container .ql-editor .sketch-item .description-text {
+              font-size: 12px;
+              line-height: 16px;
+            }
+          </style>
