@@ -1,7 +1,27 @@
-h2,
-.h2 {
-  font-size: $h2;
-  font-weight: 600;
-  color: $primary-text;
-  margin: 0 !important; // 상하 마진 모두 제거 (강제 적용)
-}
+<div class="frame relative border-box border-color-full rounded-corners full-width flex-column" style="width: 320px; height:0;!important">
+
+  <div class="flex flex-grow full-height">
+    <div class="flex flex-grow full-height embed-block-view--iframe-container">
+      <div class="embed-error flex flex-center full-width full-height display-none">
+        <span class="embed-error-message inline h4"></span>
+      </div>
+    <iframe title="Embeded content from lottie.host" allow="clipboard-write; fullscreen" class="no-border max-full-width full-height flex-grow" src="https://lottie.host/embed/ae3917f9-a394-41e6-ac34-0a2e869230ad/9x76w89ZTC.lottie"></iframe></div>
+    <div class="horizontal-resize border-color-full border-left edit flex-center full-height wg3 white-background hide-nested display-none" style="cursor: ew-resize;">
+      <svg width="5" height="17" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#A9A9A9" fill="none" fill-rule="evenodd" stroke-linecap="square">
+          <path d="M1 1v15.5M4 1v15.5"></path>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="edit flex display-none">
+    <div class="vertical-resize border-color-full border-top
+        flex-center wg3 flex-grow white-background" style="cursor: ns-resize;">
+      <svg width="16" height="5" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.75.75H.25m15.5 3H.25" stroke="#A9A9A9" fill="none" fill-rule="evenodd" stroke-linecap="square"></path>
+      </svg>
+    </div>
+    <div class="diagonal-resize wg3 hg3" style="cursor: nwse-resize;"></div>
+  </div>
+</div>
